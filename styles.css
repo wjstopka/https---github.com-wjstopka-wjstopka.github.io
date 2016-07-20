@@ -1,0 +1,23 @@
+h1 {
+	color:#ff4000;
+}
+
+/*This is a comment the browser will ignore it*/
+
+/*always use a period for a class*/
+.mainheadline{
+	color:#009933
+}
+/*use # for ID*/
+#mainheadline{
+
+	font-size: 96px;
+}
+
+h2 {
+	color:#660066 
+}
+
+.starimage{
+	width: 950px;
+}
