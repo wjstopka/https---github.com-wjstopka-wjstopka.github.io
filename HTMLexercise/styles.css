@@ -1,0 +1,21 @@
+#mainheadline {
+	font-size: 46px;
+}
+
+
+
+
+.Ingredients {
+
+	background-color:#F0A9F4;
+	padding: 15px;
+	border: 5px double #000000;
+
+}
+
+
+.Directions {
+	background-color:#1affc6;
+	padding: 15px;
+	border: 5px double #000000;
+}
