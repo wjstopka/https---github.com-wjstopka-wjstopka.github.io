@@ -1,0 +1,77 @@
+div {
+
+	background-color:#d9d9d9;
+	font-size: 20px;
+	margin: 50px;
+
+}
+
+.Header {
+	position: fixed;
+	padding: 15px;
+}
+.loghere {
+	position: relative;
+	bottom: 50px;
+	float: right
+}
+.Oprah {
+	position: static;
+	background-color:#ffffcc;
+	padding: 15px;
+
+}
+.Navigation {
+
+	position: fixed;
+	background-color:#d9d9d9;
+	height: 100px;
+
+}
+
+.ingredients {
+	position: relative;
+	background-color: #80e5ff;
+	float:left;
+	width: 500px;
+	height: 200px;
+}
+
+.directions {
+	position: relative;
+	background-color: #00e6ac;
+	float:left;
+	width: 500px;
+	height: 200px;
+}
+
+.Brownie01{
+	position: relative;
+	border: 	5px solid black;
+	width: 300px;
+	bottom:120px;
+	
+}
+
+.Brownie02{
+	position: relative;
+	border: 	5px solid black;
+	width: 300px;
+	bottom:60px;
+	
+}
+
+.Brownie03 {
+	position: relative;
+	border: 	5px solid black;
+	width: 300px;
+	
+
+}
+
+.floor {
+		background-color:#d9d9d9;
+		height: 150px;
+
+}
+	
