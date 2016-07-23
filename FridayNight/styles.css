@@ -40,7 +40,10 @@ body {
 	font-size: 32px;
 }
 
+.Checkbox {
 
+	padding: 10px;
+}
 
 .group:after {
   content: "";

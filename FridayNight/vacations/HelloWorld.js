@@ -2,9 +2,9 @@
 	// alert(myNumber);
 
 	// alert(myNumber)+10;
-	var myGreeting = "My name is ";
-	var myName = "Mud";
-		alert(myGreeting + myName);
+	// var myGreeting = "My name is ";
+	// var myName = "Mud";
+	// 	alert(myGreeting + myName);
 
 
 
@@ -25,3 +25,15 @@
 // 	var myGreeting = "My name is";
 // 	var myName = "Mud";
 // }
+
+
+var checkboxIsChecked;
+
+document.getElementById("waltersCheckBox")
+
+checkboxIsChecked = myCheckbox.checked;
+
+if (checkboxIsChecked) {
+
+	alert("checkbox is checked");
+}
