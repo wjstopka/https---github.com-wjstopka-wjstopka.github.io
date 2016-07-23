@@ -9,16 +9,22 @@
 
 }
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .recipes-link {
 	position: absolute;
 	left: 20px;
-	top: 10px;
+	top: 18px;
 }
 
 .login {
 	position: absolute;
 	right: 20px;
-	top: 10px;
+	top: 18px;
 
 }
 
@@ -27,6 +33,7 @@
 
 	position: relative;
 	top: 50px;
+	z-index: -100;
 	
 
 
@@ -53,6 +60,10 @@
 
 }
 
+.clearfix {
+	clear: both;
+}
+
 
 .ingredients {
 
@@ -72,19 +83,18 @@
 
 }
 
-
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
+.subheader {
+	color: #008679;
 }
 
+
+
+
 .footer {
-clear: left;
-background-color: #f2f2f2;
-position: relative;
+clear: both;
+background-color: #9a9a9a;
 width: 100%;
-height: 500px;
+height: 50px;
 
 
 }
