@@ -1,10 +1,16 @@
-.navigation {
+body {
+margin: 0px;
+
+}
+
+	.navigation {
+
 	background-color: #f2f2f2;
 	position: fixed;
-	width: 100%;
-	height: 50px;
 	top: 0px;
 	left: 0px;
+	width: 100%;
+	height: 50px;
 	z-index: 100;
 
 }
@@ -15,10 +21,31 @@
   clear: both;
 }
 
-.recipes-link {
-	position: absolute;
-	left: 20px;
-	top: 18px;
+
+.content {
+
+	position: relative;
+	top: 50px;
+	z-index: -100;
+}
+
+.top-content {
+
+	background-color: yellow;
+	padding: 20px 10px;
+
+}
+
+.brownpic{
+	width: 300px ;
+	float: left;
+	border: 2px solid #000000;
+	margin: 0 10px;
+
+}
+
+.clearfix {
+	clear: both;
 }
 
 .login {
@@ -29,57 +56,30 @@
 }
 
 
-.content {
-
-	position: relative;
-	top: 50px;
-	z-index: -100;
-	
-
-
-}
-
-
-
-.top-content {
-
-
+.recipes-link {
 	position: absolute;
-	background-color: yellow;
-	
-
+	left: 20px;
+	top: 18px;
 }
 
-
-.brownpic{
-	width: 30%;
-	position: relative;
-	float: left;
-	border: 2px solid #000000;
-	margin: 10px;
-
-}
-
-.clearfix {
-	clear: both;
-}
 
 
 .ingredients {
 
-	position: relative;
 	background-color: green;
 	float: left;
 	padding: 2%;
-	width: 46%;
+	width: 44%;
+	margin: 2% 1%;
 }
 
 .directions {
-	position: relative;
-	float: right;
+
+	float: left;
 	background-color: #90cac4;
 	padding: 2%;
-	width: 46%;
+	width: 44%;
+	margin: 2% 1%;
 
 }
 
@@ -93,7 +93,6 @@
 .footer {
 clear: both;
 background-color: #9a9a9a;
-width: 100%;
 height: 50px;
 
 
