@@ -1,0 +1,46 @@
+div.container {
+	text-align: center;
+	padding: 50px 0;
+	border: 1px solid black;
+}	
+
+img.small {
+	width: 200px;
+	height: 150px;
+}
+
+img.large {
+    position: relative;
+    z-index: 2;
+   	padding: 10px 0;
+   	width: 80%;
+   	height: auto;
+}
+
+.close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.modalOverlay {
+	text-align: center; 
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: .5;
+	background-color: #000;
+}
+
+.modalContainer {
+	position: fixed;
+	text-align: center;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}

@@ -1,0 +1,43 @@
+svg {
+	width: 300px;
+	display: block;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.house-body {
+	fill: #fff;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+
+li {
+	display: inline-block;
+	margin: 10px;
+	height: 30px;
+	width: 30px;
+	border: 3px solid black;
+}
+
+#red {
+	background-color: #ff6060;
+}
+
+#blue {
+	background-color: #03a9f4;
+}
+
+#yellow {
+	background-color: #cddc39;
+}
+
+.color-container {
+	text-align: center;
+}
